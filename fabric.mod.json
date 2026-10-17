@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "popa",
+  "version": "${version}",
+  "name": "Popa",
+  "description": "Автокристаллы: зажми ПКМ на обсидиане или бедроке.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.popa.PopaClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
